@@ -51,7 +51,7 @@ export default function HomePage() {
           {/* ==================== LEFT COLUMN ==================== */}
           <div className="space-y-6">
             {/* Logo and Decorative Stars */}
-            <div className="flex items-start gap-4 justify-center md:justify-start">
+            <div className="flex items-start gap-4 justify-center">
               {/* Stars Left */}
               <div className="flex flex-col gap-2 mt-4">
                 <Sparkles className="w-3 h-3 text-purple-300" fill="currentColor" />
@@ -81,52 +81,10 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Main Heading */}
-            <div className="space-y-1">
-              <h1 className="text-5xl font-script leading-tight">April Showers</h1>
-              <h2 className="text-5xl font-extrabold text-purple-400 leading-tight tracking-wide">BRING MAY</h2>
-              <div className="flex items-center gap-1">
-                <h2 className="text-5xl font-extrabold text-purple-400 tracking-wide">FL</h2>
-                <div className="w-12 h-12 relative -mt-1">
-                  <svg viewBox="0 0 48 48" className="w-full h-full">
-                    {/* Petals - rounded teardrop shapes */}
-                    {[...Array(8)].map((_, i) => (
-                      <ellipse
-                        key={i}
-                        cx="24"
-                        cy="14"
-                        rx="5.5"
-                        ry="9"
-                        fill={i % 2 === 0 ? "#c4b5e0" : "#b8a4d8"}
-                        transform={`rotate(${i * 45} 24 24)`}
-                      />
-                    ))}
-                    {/* Inner petals */}
-                    {[...Array(8)].map((_, i) => (
-                      <ellipse
-                        key={`inner-${i}`}
-                        cx="24"
-                        cy="17"
-                        rx="3.5"
-                        ry="6"
-                        fill={i % 2 === 0 ? "#d4c6ec" : "#cbbde6"}
-                        transform={`rotate(${i * 45 + 22.5} 24 24)`}
-                      />
-                    ))}
-                    {/* Center */}
-                    <circle cx="24" cy="24" r="5" fill="#e8dff5" />
-                    <circle cx="24" cy="24" r="3" fill="#d4c4e8" />
-                    <circle cx="24" cy="24" r="1.5" fill="#c0aedd" />
-                  </svg>
-                </div>
-                <h2 className="text-5xl font-extrabold text-purple-400 tracking-wide">WERS</h2>
-              </div>
-            </div>
-
             {/* Subtitle */}
             <div className="text-center space-y-2">
               <p className="text-purple-400 font-semibold tracking-wide text-sm">
-                REFRESH YOUR HOME, RENEW YOUR SEASON
+                CLEANING WITH CARE AND COMPASSION
               </p>
               <div className="flex items-center justify-center gap-2">
                 <div className="h-px bg-purple-300 flex-1"></div>
@@ -137,9 +95,6 @@ export default function HomePage() {
 
             {/* Body Text */}
             <div className="text-center space-y-2">
-              <p className="text-sm leading-relaxed">
-                Spring is the perfect time for a fresh start!
-              </p>
               <p className="text-sm leading-relaxed">
                 Let <span className="text-purple-400 font-semibold">With Love Cleaning Services</span> take care of the mess so you can enjoy more of what matters most.
               </p>
@@ -349,7 +304,7 @@ export default function HomePage() {
                   <div className="w-8 h-8 rounded-full bg-purple-400 flex items-center justify-center flex-shrink-0">
                     <Phone className="w-4 h-4 text-white" />
                   </div>
-                  <span className="text-sm">Call or Text: <strong>(613) 670-1015</strong></span>
+                  <span className="text-sm">Call or Text: <strong>343-551-8080</strong></span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-8 h-8 rounded-full bg-purple-400 flex items-center justify-center flex-shrink-0">
@@ -391,7 +346,7 @@ export default function HomePage() {
         <div className="border-t border-purple-100 px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-2">
           <div className="flex items-center gap-2 text-xs text-gray-400">
             <img src="/wlc-house.svg" alt="Logo" className="h-4 w-4" />
-            <p>&copy; 2025 With Love Cleaning Services. All rights reserved.</p>
+            <p>&copy; 2026 With Love Cleaning Services. All rights reserved.</p>
           </div>
           <nav className="flex gap-4">
             <Link href="/terms" className="text-xs text-gray-400 hover:text-purple-400 transition-colors">Terms of Service</Link>

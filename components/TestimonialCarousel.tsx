@@ -3,22 +3,22 @@ import React from "react";
 const testimonials = [
   {
     text: "Ashley is the best cleaner I've ever had. She is very thorough and will tackle any job I request. I would highly recommend her to anyone who wants a spotless home cleaned with love and care!",
-    name: "Carolyn Fyffe-Heagle",
+    name: "Carolyn",
     type: "Residential Cleaning Client",
   },
   {
     text: "Ashley arrived at my home and after a quick walk through and discussion confirming what we had discussed, she tackled my home with care and great efficiency. I asked for the interior fridge add-on and it didn't disappoint. I look forward to the next clean!",
-    name: "Kathy Sigmund",
+    name: "Kathy",
     type: "Residential Cleaning Client",
   },
   {
     text: "I would highly recommend Ashley to all my closest friends. She brings professional, thorough and detailed cleaning services. She always communicates on what she is doing. Bonus is she loves pets, my dogs and cats look forward to each and every visit!",
-    name: "Barb Holgate",
+    name: "Barb",
     type: "Residential Cleaning Client",
   },
   {
     text: "We used Ashley's services for a complete cleaning of our office space! Easy to contact and fast service! The cleaning was carried out down to the smallest detail. We will definitely use their services again!! We recommend them without hesitation!!",
-    name: "Trinic Toitures Inc.",
+    name: "Trinic",
     type: "Commercial Cleaning Client",
   },
 ];
