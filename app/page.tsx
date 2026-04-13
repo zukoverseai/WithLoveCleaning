@@ -328,7 +328,7 @@ export default function HomePage() {
               </div>
             </div>
             {/* Current Openings - expandable */}
-            <CurrentOpenings />
+            {/* <CurrentOpenings /> */}
           </div>
         </div>
 
